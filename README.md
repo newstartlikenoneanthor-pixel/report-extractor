@@ -15,6 +15,7 @@ Includes a lightweight ASCII banner, spinner, and colorized terminal output.
 - Python 3.7+
 - Packages: `requests`, `pyfiglet`
   
+## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/newstartlikenoneanthor-pixel/report-extractor.git
