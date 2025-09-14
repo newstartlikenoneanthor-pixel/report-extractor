@@ -22,10 +22,16 @@ pip install requests pyfiglet
 ```
 ## Usage:
 - Basic: search "XSS" and save default file (Cross-Site_Scripting.csv)
-```python3 report_extractor.py -v "XSS"```
+```bash
+python3 report_extractor.py -v "XSS"
+```
 
 - Save to a custom file
-```python3 report_extractor.py -v "SQL Injection" -o sqli_reports.csv```
+```bash
+python3 report_extractor.py -v "SQL Injection" -o sqli_reports.csv
+```
 
 - Fetch 500 reports (default is 100, max 3000)
-```python3 report_extractor.py -v "CSRF" -n 500```
+```bash
+python3 report_extractor.py -v "CSRF" -n 500
+```
