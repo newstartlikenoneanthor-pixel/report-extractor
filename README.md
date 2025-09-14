@@ -14,10 +14,19 @@ Includes a lightweight ASCII banner, spinner, and colorized terminal output.
 ## Requirements
 - Python 3.7+
 - Packages: `requests`, `pyfiglet`
-
-Install dependencies:
+  
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/newstartlikenoneanthor-pixel/report-extractor.git
+   cd report-extractor
+   ```
+2. install requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. run the tool
 ```bash
-pip install requests pyfiglet
+python3 report_extractor.py -v XSS -o xss.csv -n 100
 ```
 ## Usage:
 - Basic: search "XSS" and save default file (Cross-Site_Scripting.csv)
