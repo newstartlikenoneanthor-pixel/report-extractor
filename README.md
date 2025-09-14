@@ -1,6 +1,5 @@
-# report-extractor
-CLI tool that fetches resolved &amp; disclosed HackerOne reports by vulnerability and exports them to CSV.
 # Report Extractor
+<img width="979" height="360" alt="image" src="https://github.com/user-attachments/assets/ed12a342-acba-4821-861e-2626cb04fe95" />
 
 A small CLI tool that fetches **resolved & disclosed** HackerOne reports by vulnerability (CWE/keyword) and exports them to a CSV file.  
 Includes a lightweight ASCII banner, spinner, and colorized terminal output.
